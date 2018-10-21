@@ -9,24 +9,75 @@ html, body {
 }
 
 .header-descript {
-	background: #563d7c;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/bg-header.jpg) repeat-x top center;;
+	color: rgb(37, 21, 21);
+	height: 100%;
+	width: 100%;
+	margin: 0 !important;
+}
+
+.header-descript .grid_5 {
+	padding: 40px 95px 0 230px;
+	font-size: 0.494cm;
+}
+  
+.header-descript .grid_5 a {
+	display: block;
+	height: 61px;
+	width: 95px;
+	float: left;
+	color: white;
+	font-size: 0.847cm;
+	font-weight: bold;
+	line-height: 1.499;
+	width: 3.21cm;
+	height: 0.811cm;
+}
+
+.header-descript .grid_7 .menu_items {
+	float: right;
+	font-size: 0.494cm;
+	line-height: 1.715;
+	padding: 10px 230px 0 0;
+}
+
+.header-descript .grid_7 a {
+	display: block;
+	height: 100px;
+	float: left;
 	color: white;
 }
 
-.header-descript .header-title {
-	margin-top: 10px;
-	font-size: 42px;
-	text-align: center;
+.header-descript .grid_7 a.home {
+	width: 62px;
 }
 
-.header-descript .header-description {
-	font-size: 20px;
-	text-align: center;
-	font-style: italic;
+.header-descript .grid_7 a.portfolio {
+	width: 94px;
+}
+
+.header-descript .grid_7 a.about {
+	width: 75px;
+}
+
+.header-descript .grid_7 a.works {
+	width: 94px;
+}
+
+.header-descript .grid_7 a.blog {
+	width: 94px;
+}
+.header-descript .grid_7 a.clients {
+	width: 94px;
+}
+.header-descript .grid_7 a.contact {
+	width: 94px;
 }
 
 .image-form-container {
 	margin-top: 10px;
+	height: 100%;
+	width: 100%;
 }
 .image-form-container .left-photo {
 	background: #eee;
@@ -37,6 +88,8 @@ html, body {
 	background: #563d7c;
 	margin-top: 10px;
 	color: white;
+	height: 100%;
+	width: 100%;
 }
 
 .sale .title {
@@ -46,6 +99,8 @@ html, body {
 
 .triggers {
 	margin-top: 10px;
+	height: 100%;
+	width: 100%;
 }
 
 .triggers .triggers-title {
@@ -61,6 +116,8 @@ html, body {
 
 .responses {
 	margin-top: 10px;
+	height: 100%;
+	width: 100%;
 }
 
 .responses .responses-title {
@@ -73,4 +130,6 @@ html, body {
 	height: 50px;
 	text-align: center;
 	background: #eee;
+	height: 100%;
+	width: 100%;
 }
